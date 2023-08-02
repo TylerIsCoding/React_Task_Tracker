@@ -33,8 +33,8 @@ const AddTask = ({ onAdd }) => {
             <div className="form-control">
                 <label>Day and Time</label>
                 <input
-                    type="text"
-                    placeholder="Add Day and Time"
+                    type="datetime-local"
+                    step={900}
                     value={day}
                     onChange={(e) => setDay(e.target.value)}
                 />

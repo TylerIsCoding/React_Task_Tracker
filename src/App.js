@@ -1,19 +1,26 @@
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 
 function App() {
   const [ showAddTask, setShowAddTask ] = useState(false)
-  const [tasks, setTasks] = useState([])
+  const [tasks, setTasks] = useState(() => {
+    const saved = localStorage.getItem("tasks");
+    const initialValue = JSON.parse([saved]);
+    return initialValue.sort((a, b) => Date.parse(a.day) - Date.parse(b.day)) || [];
+  })
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks))
+  }, [tasks])
 
   // Add Task
   const addTask = (task) => {
     const id = Math.floor(Math.random() * 10000) + 1
     const newTask = {id, ...task }
-    setTasks([...tasks, newTask ])
+    setTasks([...tasks, newTask ].sort((a, b) => Date.parse(a.day) - Date.parse(b.day)))
   }
 
   // Delete Task
