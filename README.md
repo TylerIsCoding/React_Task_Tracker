@@ -3,7 +3,7 @@
   <img src="https://i.imgur.com/yhbeayb.png" alt="Task Tracker Image">
 </p>
 
-This Task Tracker application is built using React.js to manage tasks with names, dates, times, and optional reminders.
+This Task Tracker application is built using React.js to manage tasks with names, dates, times, and optional reminders. The tasks are stored locally on the user's machine with localStorage so they won't be lost between sessions.
 
 Website: [React Task Tracker](https://quest-log.cyclic.app)
 
@@ -17,7 +17,7 @@ Website: [React Task Tracker](https://quest-log.cyclic.app)
 ## Project Overview
 This project employs a combination of technologies to develop an engaging and responsive web application. Here's a breakdown of the tech stack and their respective roles:
 
-- **HTML5**: Provides the foundational structure and content for the website.
+- **HTML5**: Provides the foundational structure and content for the website. The application uses localStorage to store the tasks on the local machine so that tasks are stored between browser sessions.
 - **CSS3**: Takes care of the visual styling and layout, ensuring an attractive design.
 - **JavaScript**: Implements interactive features such as the navigation bar and form validation, enhancing user experience.
 - **React**: The core of the application is built with function-based components, creating a real-time user experience on a single landing page. Users can add tasks by specifying a name, date, and time. Tasks are sorted chronologically and can be displayed with or without reminder tags.
