@@ -25,8 +25,8 @@ This project employs a combination of technologies to develop an engaging and re
 By utilizing these technologies effectively, the React Task Tracker offers users a seamless and efficient way to manage their tasks.
 <br>
 ## Lessons Learned</h2>
-  - Component-Based Development: Developing with React.js reinforced the significance of a component-based architecture. This approach promotes code reusability, simplifies maintenance, and accelerates the development process.
-  - State Management: Managing state effectively is crucial for React applications. Implementing state management libraries like Redux or using React's built-in useState hook can simplify complex data handling and enhance user interactions.
-  - Responsive Design: Designing with responsiveness in mind is essential. It ensures the application looks and functions seamlessly across various devices and screen sizes, enhancing user satisfaction.
-  - Single Page Applications (SPAs): Building a single page application offers smoother navigation and better user experience. However, it requires careful management of routes and state to ensure consistent behavior.</p>
+  - **Component-Based Development**: Developing with React.js reinforced the significance of a component-based architecture. This approach promotes code reusability, simplifies maintenance, and accelerates the development process.
+  - **State Management**: Managing state effectively is crucial for React applications. Implementing state management libraries like Redux or using React's built-in useState hook can simplify complex data handling and enhance user interactions.
+  - **Responsive Design**: Designing with responsiveness in mind is essential. It ensures the application looks and functions seamlessly across various devices and screen sizes, enhancing user satisfaction.
+  - **Single Page Applications (SPAs)**: Building a single page application offers smoother navigation and better user experience. However, it requires careful management of routes and state to ensure consistent behavior.</p>
 <br>
