@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# React Task Tracker
+<p align="center">
+  <img src="https://i.imgur.com/yhbeayb.png" alt="Task Tracker Image">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Task Tracker application is built using React.js to manage tasks with names, dates, times, and optional reminders. The tasks are stored locally on the user's machine with localStorage so they won't be lost between sessions.
 
-## Available Scripts
+Website: [React Task Tracker](https://quest-log.cyclic.app)
 
-In the project directory, you can run:
+## Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Moment.js
 
-### `npm start`
+## Project Overview
+This project employs a combination of technologies to develop an engaging and responsive web application. Here's a breakdown of the tech stack and their respective roles:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5**: Provides the foundational structure and content for the website. The application uses localStorage to store the tasks on the local machine so that tasks are stored between browser sessions.
+- **CSS3**: Takes care of the visual styling and layout, ensuring an attractive design.
+- **JavaScript**: Implements interactive features such as the navigation bar and form validation, enhancing user experience.
+- **React**: The core of the application is built with function-based components, creating a real-time user experience on a single landing page. Users can add tasks by specifying a name, date, and time. Tasks are sorted chronologically and can be displayed with or without reminder tags.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By utilizing these technologies effectively, the React Task Tracker offers users a seamless and efficient way to manage their tasks.
+<br>
+## Lessons Learned</h2>
+  - **Component-Based Development**: Developing with React.js reinforced the significance of a component-based architecture. This approach promotes code reusability, simplifies maintenance, and accelerates the development process.
+  - **State Management**: Managing state effectively is crucial for React applications. Implementing state management libraries like Redux or using React's built-in useState hook can simplify complex data handling and enhance user interactions.
+  - **Responsive Design**: Designing with responsiveness in mind is essential. It ensures the application looks and functions seamlessly across various devices and screen sizes, enhancing user satisfaction.
+  - **Single Page Applications (SPAs)**: Building a single page application offers smoother navigation and better user experience. However, it requires careful management of routes and state to ensure consistent behavior.</p>
+<br>
