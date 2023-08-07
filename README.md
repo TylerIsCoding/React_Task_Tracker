@@ -5,7 +5,7 @@
 
 This Task Tracker application is built using React.js to manage tasks with names, dates, times, and optional reminders. The tasks are stored locally on the user's machine with localStorage so they won't be lost between sessions.
 
-Website: [React Task Tracker](https://quest-log.cyclic.app)
+Website: [React Task Tracker](https://tyleriscoding.github.io/React_Task_Tracker/)
 
 ## Technologies Used
 - React.js
